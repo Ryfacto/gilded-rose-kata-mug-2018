@@ -7,9 +7,10 @@ namespace Test
     public class Tests
     {
         [Test]
-        public void Test1()
+        public void SecurityTest()
         {
-					Assert.AreEqual(1, 1);
+            LegacyGildedRose legacyGildedRose = new LegacyGildedRose();
+            legacyGildedRose.
         }
     }
 }
