@@ -2,10 +2,10 @@
 
 namespace csharp
 {
-    public class GildedRose
+    public class LegacyGildedRose
     {
         public IList<Item> Items;
-        public GildedRose(IList<Item> Items)
+        public LegacyGildedRose(IList<Item> Items)
         {
             this.Items = Items;
         }
