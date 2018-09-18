@@ -19,7 +19,7 @@ namespace Tests
             var app = new GildedRose(Items.CreateDefaultItems());
             var legacy = new LegacyGildedRose(Items.CreateDefaultItems());
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 7; i++)
             {
                 Check.That(app.Items.Extracting("Name")).ContainsExactly(legacy.Items.Extracting("Name"));
                 Check.That(app.Items.Extracting("SellIn")).ContainsExactly(legacy.Items.Extracting("SellIn"));
